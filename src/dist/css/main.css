@@ -1,0 +1,198 @@
+.row {
+    padding:0;
+    margin:0;
+}
+.notFoundlist {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    margin-top:25px;
+}
+
+.loading,.launchError {
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    padding:35px;
+    margin-top:80px;
+    border-radius: 25px;
+}
+.loading p {
+    margin-top:25px;
+}
+.launchError p {
+    margin-top:25px;
+}
+
+.login {
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    padding:35px;
+    margin-top:80px;
+    border-radius: 25px;
+}
+.login form {
+    margin-top: 25px;
+
+}
+.login input {
+    margin-bottom: 8px;
+}
+.login input.not_filled {
+    border:1px solid red;
+}
+.login p {
+    color:red;
+    margin-top: 8px;
+    font-size:14px;
+}
+
+
+.main {
+    margin-top:8px;
+}
+
+.login .warning  {
+    font-weight:bold;
+}
+
+
+
+
+
+.clients form {
+    margin-bottom:25px;
+}
+.precard {
+    border: 1px solid #d9d9d9;
+    padding:25px;
+    border-radius: 12px;
+    cursor:pointer;
+    margin-bottom:12px;
+}
+.precard p {
+    margin-bottom:4px;
+}
+.precard .granted {
+    color:green;
+}
+
+
+.userCardProfile {
+    margin-top:12px;
+}
+.userCardCourses {
+    margin-top:15px;
+}
+.userCardCourse {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-top:15px;
+}
+.userCardCourse img {
+    border-radius:8px;
+    margin:8px 0;
+}
+.userCardCourse p {
+    margin:12px 0 12px 12px;
+}
+.userCardCourse button {
+    margin:12px 0;
+}
+.userCardCourse .usercardaccessListOfCourse {
+    display: none;
+}
+.userCardCourse .usercardaccessListOfCourse.active {
+    display: flex;
+}
+.userCardCourse .usercardaccessListOfCourse .noAccesses {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+}
+.userCardCourse .usercardaccessListOfCourse .btn-secondary {
+    margin-right:15px;
+}
+
+.userCardCourse .usercardaccess {
+    border:1px solid #d9d9d9;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    padding:4px;
+}
+.userCardCourse .usercardaccess p {
+    margin: 4px 0;
+    font-size:12px
+}
+.userCardCourse .usercardaccess h6 {
+    font-size:12px;
+    text-align: center;
+    display: block;
+}
+.userCardCourse .usercardaccess form {
+    font-size:12px;
+}
+.userCardCourse .usercardaccess form label {
+    font-size:12px;
+    margin-right:4px
+}
+.userCardCourse .usercardaccess form select {
+    font-size:12px;
+    padding:4px;
+    display: inline-block;
+    margin:4px 4px 0 0;
+}
+.userCardCourse .usercardaccess button {
+    margin:4px 0;
+}
+.resultSuccess {
+    position:fixed;
+    display: none;
+    right:25px;
+    top:25px;
+    background-color: green;
+    border-radius: 15px;
+    padding:15px;
+    color:#fff;
+}
+.resultSuccess.active {
+    display:block;
+}
+.resultError {
+    position:fixed;
+    display: none;
+    right:25px;
+    top:25px;
+    background-color: red;
+    border-radius: 15px;
+    padding:15px;
+    color:#fff;
+}
+.resultError.active {
+    display:block;
+}
+
+
+
+
+.userCardPayments {
+    margin-top:15px;
+}
+.userCardPayment {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding:15px;
+    margin:4px 0;
+}
+.userCardPayment p {
+    margin:4px;
+}
+.userCardPayment .courses p {
+    font-size:12px;
+}
+
+
+
+
+.paymentsDiv {
+    margin-top:15px;
+}
